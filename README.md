@@ -1,2 +1,2 @@
-# shope-apotheke-frontend
+# shop-apotheke-frontend
 Front-end React.js task 

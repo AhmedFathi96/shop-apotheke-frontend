@@ -1,7 +1,13 @@
 
 
 export interface IResponse{
-        data:IResponseDetails
+        data:IResponseDetails;
+        error?:IError
+}
+
+export interface IError{
+        documentation_url:string;
+        message:string
 }
 export interface IResponseDetails{
         total_count:number;

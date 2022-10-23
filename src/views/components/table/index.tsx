@@ -6,7 +6,7 @@ import { TableEmpty } from "./tableEmpty";
 import ContainerField from "./containerField";
 import { getByKeysStringURL } from "../../../utils/getValueByKeysString";
 import DateField from "./dateField";
-import ControllerField from "./controllerField";
+import { ToastContainer } from 'react-toastify';
 import ConnectedController from "./controllerField/connectedController";
 
 const DataTable:React.FC<IDateTableProps> = (props: IDateTableProps) => {
@@ -154,6 +154,7 @@ const DataTable:React.FC<IDateTableProps> = (props: IDateTableProps) => {
               );
             })
           : null}
+          <ToastContainer />
       </div>
     </div>
   );

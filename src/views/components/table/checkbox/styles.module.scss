@@ -1,0 +1,39 @@
+
+.checkbox, .checkbox-active{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0.5rem 1rem 0.8125rem;
+    gap: 10px;
+    color: #6B7280;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    input:focus{
+        outline: 0;
+    }
+}
+
+.checkbox_outline {
+    width: 100%;
+    border: 1px solid#D1D5DB;
+    border-radius: 12px;
+    padding: 1rem 1.3rem;
+
+    &_checked {
+        border: 1px solid #4F46E5 !important;
+        background-color: #EEF2FF;
+    }
+
+    label {
+        flex: 1;
+    }
+}
+
+.checkbox-active{
+    color: #111827;
+}
+
+.checkbox:hover {
+    background-color: #F9FAFB;
+}

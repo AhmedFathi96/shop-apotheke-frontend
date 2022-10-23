@@ -1,0 +1,31 @@
+
+.tableButton {
+    padding: .5rem 0;
+    width: 9.5rem;
+    border-radius: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-size: 0.875rem;
+    svg {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+
+    &_outline {
+        background-color: transparent;
+        color: #4F46E5;
+        border: 1px solid #4F46E5;
+    }
+
+    &_primary {
+        background-color: #4F46E5;
+        color: White;
+    }
+
+    &_secondary {
+        background-color: #EEF2FF;
+        color: #4F46E5;
+    }
+}

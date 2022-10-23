@@ -1,0 +1,101 @@
+.table {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transition: all .3s;
+    min-height: 0;
+    &_head {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 0.87rem 1.5rem;
+        padding-right: calc(1.5rem + 10px);
+        background-color: #F9FAFB;
+        border-top: solid 1px #D1D5DB;
+
+        &_label {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            span {
+                color: #6B7280;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-size: 0.75rem;
+                font-weight: 600;
+                line-height: 1rem;
+            }
+        }
+    }
+
+    &_body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+            // flex: 1;
+
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        &::-webkit-scrollbar-track:hover ~ &::-webkit-scrollbar-thumb {
+            background: #6366F1;
+        }
+        
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background:#6366F1;
+            border-radius: 6px;
+            border: 2px solid #fff
+        }
+        
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #6366F1;
+        }
+
+        &_row {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            background-color: #fff;
+            padding: 0.87rem 1.5rem;
+            border: solid 1px #F3F4F6;
+            transition: all .3s;
+
+            &:hover {
+                background-color: #F9FAFB;
+                transition: all .3s;
+                cursor: pointer;
+            }
+
+            &_data {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                span {
+                    font-size: 0.875rem;
+                    font-weight: 500;
+                    overflow-wrap: break-word;
+                    width: 100%;
+                }
+
+                &-badged {
+                    width: initial;
+                }
+               
+            }
+        }
+    }
+}

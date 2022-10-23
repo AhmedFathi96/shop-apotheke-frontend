@@ -1,0 +1,18 @@
+
+.dateField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    &_date {
+        font-weight: 500;
+        font-size: 0.875rem;
+    }
+
+    &_time {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: #6B7280;
+    }
+}

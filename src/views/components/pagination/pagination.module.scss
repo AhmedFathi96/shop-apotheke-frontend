@@ -1,0 +1,23 @@
+
+.pagination_container {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%; 
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginationStatus {
+    span {
+        color: #1F2937;
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+}

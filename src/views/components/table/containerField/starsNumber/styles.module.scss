@@ -1,0 +1,18 @@
+
+
+.starsNumberWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_number{
+        padding: 0.125rem 0.75rem;
+        color: #9CA3AF;
+        border-radius: 0.25rem;
+    }   
+    // &_star{
+    //     align-items: center;
+    //    width: 1rem;
+    //    height: 1rem;
+
+    // }
+}
